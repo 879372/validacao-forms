@@ -1,0 +1,117 @@
+body{
+    background: url('../images/bg-repeat.jpg');
+    font-family: 'Roboto', sans-serif;
+    background-size: contain;
+
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 20px;
+    color: #ffffff;
+    max-width: 287.25px;
+    max-height: 46px;
+    font-weight: 900;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.descricao{
+    font-size: 15px;
+    color: #ffffff;
+    max-width: 300px;
+    max-height: 54px;
+    margin-top: 11px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.campo-obrigatorio{
+    display:none;
+    color: red;
+    font-size: 9px;
+}
+
+.ativar{
+    display: block;
+    color: red;
+    font-size: 9px;
+}
+
+input::placeholder{
+    color: #a8a8a8;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+input::required{
+    display: none;
+}
+
+textarea::placeholder{
+    color: #a8a8a8;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.campo{
+    padding: 10px;
+    margin-top: 10px;
+    border: #000000 1px solid;
+    border-radius: 5px;
+
+}
+
+.mensagem{
+    padding: 10px;
+    margin-top: 10px;
+    border: #000000 1px solid;
+    border-radius: 5px;
+}
+
+.obs{
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.bnt{
+    height: 41px;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.borda-verde{
+    border: #3CCC87 solid 2px;
+}
+
+.borda-vermelha{
+    border: red solid 2px;
+}
+
+
+
+
+  

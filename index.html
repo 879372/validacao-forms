@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Js intermediário</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+   
+  
+</head>
+<body>
+    <main class="conteudo-principal">
+
+        <section class="informacoes">
+            <h1 class="titulo">
+                Ficou com dúvida? <br> nos mande uma mensagem!
+            </h1>
+
+            <p class="descricao">
+                caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+            </p>
+        </section>
+
+        <form id="forms" method="get" action="index.html" enctype="multipart/form-data" class="formulario" name="formulario"> 
+            
+            <input
+            class="campo forms" 
+            type="nome"
+            name="campos-obrigatorios"
+            id="nome"
+            placeholder="Nome completo *">
+
+            <span id="campo-obrigatorio" class="campo-obrigatorio">campo obrigatório</span>
+
+            <input 
+            class="campo forms" 
+            type="email" 
+            name="campos-obrigatorios" 
+            id="email"  
+            placeholder="Email *">
+
+            <span id="campo-obrigatorio" class="campo-obrigatorio">campo obrigatório</span>
+            
+            <input 
+            class="campo forms"
+            type="number" 
+            name="campos-obrigatorios" 
+            id="telefone"  
+            placeholder="Telefone *">
+
+            <span id="campo-obrigatorio" class="campo-obrigatorio">campo obrigatório</span>
+
+            <textarea  class="campo forms" name="campos-obrigatorios" id="mensagem" cols="30" rows="5" placeholder="Mensagem *"
+            style="resize: none;"></textarea>
+
+            <span id="campo-obrigatorio" class="campo-obrigatorio">campo obrigatório</span>
+
+            <p class="obs">*campos obrigatórios</p>
+
+            <button onclick="campoObrigatorio()" type="submit" class="bnt" id="f">Enviar</button>
+        </form>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

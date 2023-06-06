@@ -1,0 +1,21 @@
+@media (max-width: 700px){
+    .conteudo-principal{
+        flex-direction: column;
+    }
+
+    .formulario{
+        margin-left: 0px;
+    }
+
+    .descricao{
+        margin-bottom: 11px;
+    }
+
+    .informacoes{
+        text-align: center;
+    }
+
+    .descricao{
+        text-align: justify;
+    }
+}
